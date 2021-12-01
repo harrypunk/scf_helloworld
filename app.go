@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"dresselp_ciam/service"
+)
 
 func main() {
-	fmt.Println("hello")
+	fmt.Println(service.GetName())
 }

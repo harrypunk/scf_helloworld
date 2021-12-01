@@ -1,3 +1,3 @@
-module dresselp.coding.net/p/cloud/d/ciam-cloud/git
+module dresselp_ciam
 
 go 1.17
