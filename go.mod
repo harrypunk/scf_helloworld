@@ -1,4 +1,4 @@
-module dresselp_ciam
+module scf_hello
 
 go 1.17
 
