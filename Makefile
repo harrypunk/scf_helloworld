@@ -15,7 +15,7 @@ build/hello64: build/hello.zip
 	base64 $< > $@
 
 upload: build/hello64
-	tccli scf UpdateFunctionCode --FunctionName ${FUNC} --ZipFile $<
+	tccli scf UpdateFunctionCode --FunctionName ${FUNC} --ZipFile ${PWD}/$<
 
 clean:
 	rm build/*
